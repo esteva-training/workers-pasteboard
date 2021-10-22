@@ -1,0 +1,14 @@
+{
+  "name": "pasteboard",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild --bundle --sourcemap --outdir=dist ./src/index.js",
+    "dev": "miniflare --watch --debug"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.8",
+    "miniflare": "^1.4.1"
+  }
+}
