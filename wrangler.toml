@@ -6,6 +6,7 @@ route = ""
 zone_id = ""
 kv_namespaces = [
   { binding = "COUNTER_NAMESPACE", id = "", preview_id = "" },
+  { binding =  "CLIPBOARD", id= "", preview_id = ""}
 ]
 
 [build]
@@ -14,3 +15,5 @@ command = "npm run build"
 format = "service-worker"
 [miniflare]
 kv_persist = "./data/" 
+[site]
+bucket = "./public"

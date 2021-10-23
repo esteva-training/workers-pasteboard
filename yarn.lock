@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@cloudflare/kv-asset-handler@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.1.3.tgz#3eaaf962b16c48a7189db5d5ac1c4dca4e2ed1a0"
+  integrity sha512-FNcunDuTmEfQTLRLtA6zz+buIXUHj1soPvSWzzQFBC+n2lsy+CGf/NIrR3SEPCmsVNQj70/Jx2lViCpq+09YpQ==
+  dependencies:
+    mime "^2.5.2"
+
 "@cloudflare/workers-types@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@cloudflare/workers-types/-/workers-types-2.2.2.tgz#1bced16bba801d7af987da835467545bb5cc7ac6"
@@ -521,6 +528,11 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+itty-router@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/itty-router/-/itty-router-2.4.4.tgz#2d686b9525188dbc6da0dd1780eed106f7a892e8"
+  integrity sha512-mp5i47ZotK94FHondKJTZn/0dBAFzFpZpiHWn+aCgr/sg9cIVzt1gvLCKsXMkcHgKejb9GdhqvOfh7VYJJlQoQ==
+
 kleur@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.4.tgz#8c202987d7e577766d039a8cd461934c01cda04d"
@@ -570,6 +582,11 @@ mime-types@2.1.29:
   integrity sha512-Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==
   dependencies:
     mime-db "1.46.0"
+
+mime@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
+  integrity sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==
 
 miniflare@^1.4.1:
   version "1.4.1"
